@@ -29,13 +29,24 @@ a:hover{
 nav img{
 	height:22px;
 	background-color: white;
-	border-radius: 45%
+	border-radius: 45%;
 }
 .topDiv{
 	margin:5%;
 }
 .iconList img{
 	padding:4%;
+}
+.flexBox{
+	display:flex;
+}
+.flex-item{
+	flex:1;
+}
+.flexBox img{
+	width:300px;
+	border:1px solid #074054;
+	margin-top:3%;
 }
 @media only screen and (max-width:1050px){
 	.nav-left{
