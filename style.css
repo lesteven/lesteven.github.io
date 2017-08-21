@@ -1,0 +1,47 @@
+body{
+	text-align: center;
+	margin:0;
+}
+.navBar{
+	background-color:#074054;
+	font-size:21px;
+	display:flex;
+	flex-wrap:wrap;
+}
+nav a{
+	text-decoration: none;
+	color:white;
+	padding: 1% 2% 1% 2%;
+}
+a:hover{
+	background-color:white;
+	color:#074054;
+}
+.flex-space{
+	flex-grow: 1;
+}
+.nav-left{
+	margin-left:5%;
+}
+.nav-right{
+	margin-right:5%;
+}
+nav img{
+	height:22px;
+	background-color: white;
+	border-radius: 45%
+}
+.topDiv{
+	margin:5%;
+}
+.iconList img{
+	padding:4%;
+}
+@media only screen and (max-width:1050px){
+	.nav-left{
+		margin-left:0;
+	}
+	.nav-right{
+		margin-right:0;
+	}
+}
